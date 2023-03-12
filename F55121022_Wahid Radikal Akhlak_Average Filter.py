@@ -5,7 +5,7 @@ import numpy as np
 img = cv2.imread('gambar3.jpeg')
 
 # Define the kernel size for the filter (in this case, 5x5)
-kernel_size = (5, 5),
+kernel_size = (5, 5)
 
 # Create the kernel for the filter
 kernel = np.ones(kernel_size, np.float32) / (kernel_size[0] * kernel_size[1])
